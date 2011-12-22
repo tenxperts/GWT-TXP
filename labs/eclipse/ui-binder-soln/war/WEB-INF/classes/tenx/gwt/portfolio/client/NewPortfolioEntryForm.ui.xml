@@ -1,0 +1,29 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+		<table>
+			<tr>
+				<td>Symbol :</td>
+				<td><g:TextBox ui:field="symbol"/> </td>
+			</tr>
+			<tr>
+				<td>Quantity :</td>
+				<td><g:TextBox ui:field="quantity"/></td>
+			</tr>
+			<tr>
+				<td>Price :</td>
+				<td><g:TextBox ui:field="price"/></td>
+			</tr>
+			<tr>
+				<td><g:Button ui:field="submit" text="Submit" /></td>
+				<td><g:Button ui:field="cancel" text="Cancel" /></td>
+			</tr>
+		</table>
+	</g:HTMLPanel>
+</ui:UiBinder> 

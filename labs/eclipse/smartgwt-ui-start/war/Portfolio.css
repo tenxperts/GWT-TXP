@@ -1,0 +1,8 @@
+/** Add css rules here for your application. */
+.portfolio-table-header {
+	font-weight: bold;
+}
+
+.flex-table-numeric {
+	text-align: right;
+}

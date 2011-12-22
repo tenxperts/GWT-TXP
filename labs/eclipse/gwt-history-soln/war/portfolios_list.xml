@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolios>
+	<portfolio id="1" name="Short Term"/>
+	<portfolio id="2" name="Long Term"/>
+</portfolios>
